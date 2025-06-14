@@ -1,0 +1,2 @@
+nome  endereço  idade   matricula
+fabio	cohab	46	1

@@ -1,27 +1,13 @@
 package main;
 
-import model.Aluno;
+import model.Professor;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Aluno aluno = new Aluno();
-        aluno.setNome( " Pedro Henrique");
-        aluno.setEndereco( " Convivio");
-        aluno.setIdade( 17);
-        aluno.setMatricula( 1);
-    
+        Professor professor = new Professor("Luiz", "cohab", 39, "000111222333", "Desenvolvedor");
+        System.out.println(professor);
+        
 
-        // System.out.println(aluno);
-         aluno.visualizar();
-    
-        Aluno aluno2 = new Aluno("Peterson ALves",
-         "cohab2", 
-         30,
-         17);
-        System.out.println();
-         aluno2.visualizar();
-    
-        }
-
+    }
 
 }
