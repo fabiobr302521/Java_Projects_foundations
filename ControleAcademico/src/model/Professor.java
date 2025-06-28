@@ -2,20 +2,19 @@ package model;
 
 public class Professor {
 
-    private String nome;
-    private String endereco;
-    private int idade;
-    private String CPF;
-    private String Atuação;
+  private String nome;
+  private String endereco;
+  private int idade;
+  private String CPF;
+  private String atuacao;
 
-
-  public Professor(String nome, String endereco, int idade, String CPF, String Atuação) {
-        this.nome = nome;
-        this.endereco = endereco;
-        this.idade = idade;
-        this.CPF = CPF;
-        this.Atuação = Atuação;
-    }
+  public Professor(String nome, String endereco, int idade, String CPF, String atuacao) {
+    this.nome = nome;
+    this.endereco = endereco;
+    this.idade = idade;
+    this.CPF = CPF;
+    this.atuacao = atuacao;
+  }
 
   public String getNome() {
     return nome;
@@ -49,27 +48,27 @@ public class Professor {
     CPF = cPF;
   }
 
-  public String getAtuação() {
-    return Atuação;
+  public String getAtuacao() {
+    return atuacao;
   }
 
-  public void setAtuação(String atuação) {
-    Atuação = atuação;
+  public void setAtuacao(String atuacao) {
+    this.atuacao = atuacao;
   }
 
   @Override
   public String toString() {
     return "Professor [nome=" + nome + ", endereco=" + endereco + ", idade=" + idade + ", CPF=" + CPF + ", Atuação="
-            + Atuação + "]";
+        + atuacao + "]";
   }
-    
 
+  public void visualizar() {
+    System.out.println("nome: " + nome);
+    System.out.println("Endereco: " + endereco);
+    System.out.println("idade: " + idade);
+    System.out.println("CPF: " + CPF);
+    System.out.println("Atução: " + atuacao);
 
-
-
-
-
-
-
+  }
 
 }

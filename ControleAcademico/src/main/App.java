@@ -1,13 +1,10 @@
 package main;
 
-import model.Professor;
+import ui.CadastroProfessorGui;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Professor professor = new Professor("Luiz", "cohab", 39, "000111222333", "Desenvolvedor");
-        System.out.println(professor);
-        
-
+        CadastroProfessorGui.executar();
     }
 
 }
