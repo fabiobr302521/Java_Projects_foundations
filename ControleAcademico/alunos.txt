@@ -1,0 +1,3 @@
+nome, endereco, idade, matricula
+richard, rua 8, 24, 5203
+claudio, rua 8, 34, 7018

@@ -11,13 +11,15 @@ public class AlunoView {
       String endereco = JOptionPane.showInputDialog("Digite o endereço do Aluno: ");
       String idadeString = JOptionPane.showInputDialog("Digita a idade do aluno: ");
       int idade = Integer.parseInt(idadeString);
-      
 
       Aluno aluno = new Aluno(nome, endereco, idade);
       aluno.visualizar();
-
      
-    AlunoRepository.salvar(aluno);
+      // Persisntencia de dados em arquivo .txt
+      AlunoRepository.salvar(aluno);
+
+      // Exportar para CSV
+      AlunoRepository.exportarParaCSV();
 
    }
 }
