@@ -1,12 +1,10 @@
-package ui;
-
-import java.io.PrintWriter;
+package view;
 
 import javax.swing.JOptionPane;
-
 import model.Professor;
+import repository.ProfessorRepository;
 
-public class CadastroProfessorGui {
+public class ProfessorView {
     public static void executar() throws Exception {
         String nome = JOptionPane.showInputDialog("Digite o nome do Professor: ");
         String endereco = JOptionPane.showInputDialog("Digite o endereço do Professor: ");
@@ -18,15 +16,8 @@ public class CadastroProfessorGui {
         Professor professor = new Professor(nome, endereco, idade, CPF, atuacao);
         professor.visualizar();
 
-        PrintWriter saida = new PrintWriter("professor.txt");
-        saida.println("nome endereço idade CPF Atuação");
-        saida.println(professor.getNome() + ", " +
-                professor.getEndereco() + "," +
-                professor.getIdade() + "," +
-                professor.getCPF() + "," +
-                professor.getAtuacao());
+        ProfessorRepository.salvar(professor);
 
-        saida.close();
-
+        
     }
 }

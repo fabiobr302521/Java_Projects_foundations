@@ -1,2 +1,4 @@
 nome  endereço  idade   matricula
 fabio	cohab	46	1
+fabio, cohab 1, 46, 1
+Danilo, Rua 3, 45, 3490

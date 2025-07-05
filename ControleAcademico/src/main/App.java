@@ -1,10 +1,10 @@
 package main;
 
-import ui.CadastroProfessorGui;
+import view.ProfessorView;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        CadastroProfessorGui.executar();
+        ProfessorView.executar();
     }
 
 }

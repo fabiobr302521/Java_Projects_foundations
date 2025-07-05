@@ -1,0 +1,4 @@
+id,nome, cargaHoraria, categoria
+2, Informatica, 80, informatica
+1, Java, 80, informatica
+6068, Pynthon, 80, informatica
