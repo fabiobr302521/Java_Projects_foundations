@@ -1,0 +1,4 @@
+nome endereço idade CPF Atuação
+Luiz, Vila Assuncao,40,333.444.555.777,Analista
+paulo, rua 2, 39, Paulo, rua 5, 38, 33333333333, desenvolvedor
+Fabio, rua 6, 45, 88888888888, programador
