@@ -13,6 +13,7 @@ public class Aluno {
 
     public Aluno(String nome, Endereco endereco, int idade) {
         this.nome = nome;
+        
         this.endereco = endereco;
         this.idade = idade;
         this.matricula = this.gerarMatricula();

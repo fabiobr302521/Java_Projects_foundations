@@ -1,3 +1,6 @@
 nome, endereco, idade, matricula
 richard, rua 8, 24, 5203
 claudio, rua 8, 34, 7018
+fabio, Endereco [cep=18605407, numero=12, complemento=teste, logradouro=Rua Catharina Zaparolli Vicentini, bairro=Residencial Santa Helena, localidade=Botucatu, uf=SP], 45, 4236
+Danilo, Endereco [cep=18600000, numero=13, complemento=casa, logradouro=null, bairro=null, localidade=null, uf=null], 46, 8508
+fabio, Endereco [cep=18605407, numero=15, complemento=bloco, logradouro=Rua Catharina Zaparolli Vicentini, bairro=Residencial Santa Helena, localidade=Botucatu, uf=SP], 45, 1762
